@@ -1,3 +1,4 @@
+.vagrant/
 # Intellij
 .idea/
 *.iml

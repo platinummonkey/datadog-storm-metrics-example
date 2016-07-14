@@ -51,7 +51,7 @@ public class ExclamationTopology {
 
             LocalCluster cluster = new LocalCluster();
             cluster.submitTopology("test", conf, builder.createTopology());
-            Utils.sleep(5 * 60 * 1000L);
+            Utils.sleep(15 * 60 * 1000L);
             cluster.killTopology("test");
             cluster.shutdown();
         }
