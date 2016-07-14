@@ -1,0 +1,14 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+# Maven
+log/
+target/
+debug.sh
+dependency-reduced-pom.xml
+.DS_Store
+*.pyc
+*/venv
+venv
+*.swp
