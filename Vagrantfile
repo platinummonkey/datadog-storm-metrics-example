@@ -31,7 +31,7 @@ Vagrant.configure(2) do |config|
     cd topology_source
     sudo update-ca-certificates -f
     mvn package
-    echo "java -cp ~/target/jar/datadog-storm-example-1.0.0.jar storm.starter.ExclamationTopology" > ~/start_topology.sh
+    echo "java -cp ~/topology_source/target/jar/datadog-storm-example-1.0.0.jar storm.starter.ExclamationTopology" > ~/start_topology.sh
     chmod +x ~/start_topology.sh
   SHELL
 end
